@@ -1,0 +1,127 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+}
+*::selection{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    border: 1px solid transparent;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container2 {
+    position: relative;
+}
+
+.div1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border:1px solid transparent;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 0 33px;
+}
+
+.div2 {
+    height: 250px;
+    width: 300px;
+    background-color: hsl(179, 62%, 43%);
+    border: 1px solid transparent;
+    border-bottom-left-radius: 10px;
+    color: white;
+    padding: 30px;
+}
+
+.div3 {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color:  hsl(179, 62%, 50%);
+    border: 1px solid transparent;
+    border-bottom-right-radius: 10px;
+    padding: 40px 30px;
+}
+
+.div1-p1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px 0px;
+}
+
+.div1-p2 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 0px 15px 0px;
+}
+
+.div1-p3 {
+    line-height: 1.6;
+    color: hsl(218, 22%, 67%);
+}
+
+.div2-p1 {
+    font-size: 20px;
+    padding: 10px 0px;
+    font-weight: 700;    
+}
+
+.div2-p2 {
+    padding: 0 0 10px 0;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.div2 span {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+}
+
+.div2-p3 {
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+button{
+    width: 100%;
+    height: 55px;
+    background-color: hsl(71, 73%, 54%);
+    border:1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(58, 63, 68, 0.2) 0px 8px 24px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.div3-p1 {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.div3-p2 {
+    color: rgba(255, 255, 255, 0.658) ;
+    line-height: 1.3;
+}
